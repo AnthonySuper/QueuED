@@ -45,7 +45,7 @@ module QueuED
       else
         redis = Redis.new
       end
-      queue = opts[:queue] ? opts[:queue] : "QueED"
+      queue = opts[:queue] ? opts[:queue] : "QueuED"
       self.do_task
       redis.lpush(queue+"_result", self.make_json)
     end

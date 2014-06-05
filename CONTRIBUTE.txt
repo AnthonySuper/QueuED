@@ -1,0 +1,3 @@
+Fork it, change it, pull request it.
+
+Any changes you make will be licensed under the MIT license.
