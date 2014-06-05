@@ -11,7 +11,7 @@ module QueuED
       else
         @redis = Redis.new
       end
-      @queue = opts[:queue] ? opts[:queue] : "QueED"
+      @queue = opts[:queue] ? opts[:queue] : "QueuED"
     end
     ##
     # Gets the current head of the queue you specified when you created this worker
